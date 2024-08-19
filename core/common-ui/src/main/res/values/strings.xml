@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="currency_list">Список криптовалют</string>
+    <string name="error_message">Произошла какая-то ошибка :(\nПопробуем снова?</string>
+    <string name="try_again">ПОПРОБОВАТЬ</string>
 </resources>
