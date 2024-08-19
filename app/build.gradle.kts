@@ -42,6 +42,7 @@ android {
 dependencies {
 
     implementation(project(":features:currency"))
+    implementation(project(":core:common-ui"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
