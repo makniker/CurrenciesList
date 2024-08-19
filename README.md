@@ -1,0 +1,2 @@
+# CurrenciesList
+Тестовое для MobileUp
