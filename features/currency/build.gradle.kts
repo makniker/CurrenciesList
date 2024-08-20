@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.dagger)
+    id("kotlin-kapt")
 }
 
 android {
@@ -41,6 +43,9 @@ dependencies {
     implementation(project(":core:common-ui"))
     implementation(project(":core:data"))
     implementation(libs.coil.compose)
+    implementation(libs.dagger.hilt)
+    implementation(libs.androidx.navigation.runtime.ktx)
+    kapt(libs.dagger.kapt)
 
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

@@ -19,7 +19,7 @@ import com.example.core.common_ui.theme.Typography
 import com.example.currency.R
 
 @Composable
-fun ListToolbar(modifier: Modifier = Modifier, onChipButtonPressed: (String) -> Unit, selectedCurrency: String) {
+fun ListToolbar(modifier: Modifier = Modifier, selectedCurrency: String, onChipButtonPressed: (String) -> Unit) {
     Column(modifier.fillMaxWidth()) {
         Text(
             text = stringResource(R.string.currency_list),
