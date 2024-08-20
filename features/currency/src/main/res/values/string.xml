@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="currency_list">Список криптовалют</string>
+    <string name="currency_grow">%.2f %%</string>
+    <string name="currency_value">%1$s %2$s</string>
+</resources>

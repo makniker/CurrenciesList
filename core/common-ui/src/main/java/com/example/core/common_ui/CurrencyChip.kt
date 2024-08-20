@@ -37,6 +37,7 @@ fun CurrencyChip(label: String, selected: Boolean, onChipButtonPressed: (String)
 @Preview(showBackground = true)
 fun CurrencyChipPreview() {
     Column {
-    CurrencyChip("USD", true, {})
-    CurrencyChip("USD", false, {})}
+    CurrencyChip("USD", true) {}
+        CurrencyChip("USD", false) {}
+    }
 }

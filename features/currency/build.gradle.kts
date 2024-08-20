@@ -40,6 +40,7 @@ dependencies {
 
     implementation(project(":core:common-ui"))
     implementation(project(":core:data"))
+    implementation(libs.coil.compose)
 
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

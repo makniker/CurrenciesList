@@ -16,12 +16,13 @@ import com.example.core.common_ui.CurrencyChip
 import com.example.core.common_ui.ShadowImitation
 import com.example.core.common_ui.theme.CurrencyListTheme
 import com.example.core.common_ui.theme.Typography
+import com.example.currency.R
 
 @Composable
 fun ListToolbar(modifier: Modifier = Modifier, onChipButtonPressed: (String) -> Unit, selectedCurrency: String) {
     Column(modifier.fillMaxWidth()) {
         Text(
-            text = stringResource(com.example.core.common_ui.R.string.currency_list),
+            text = stringResource(R.string.currency_list),
             style = Typography.titleLarge,
             modifier = Modifier
                 .alpha(0.87f)
